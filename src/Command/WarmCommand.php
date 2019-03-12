@@ -6,6 +6,8 @@ use Snowdog\DevTest\Model\PageManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 use Symfony\Component\Console\Output\OutputInterface;
 
+require_once __DIR__.'/../../lib/CacheWarm.php';
+
 class WarmCommand
 {
     /**

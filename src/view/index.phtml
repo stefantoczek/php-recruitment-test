@@ -32,6 +32,12 @@
         <?php if ($this->user): ?>
             <p class="bg-success">Hello <?= $this->user->getDisplayName() ?>!</p>
 
+            <div class="bg-info container-fluid">
+                <span class="col-md-12">Total Pages: <?= $this->getUserPageInfo('page_count') ?></span>
+                <span class="col-md-12">Least Recently Visited Page: <?= $this->getUserPageInfo('least_recently_visited')->url ?></span>
+                <span class="col-md-12">Most Recently Visited Page: <?= $this->getUserPageInfo('most_recently_visited')->url ?></span>
+            </div>
+
             <div class="padded">
                 <form class="form-inline" method="post" action="/website">
                     <div class="form-group">

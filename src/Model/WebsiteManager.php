@@ -15,8 +15,9 @@ class WebsiteManager
     {
         $this->database = $database;
     }
-    
-    public function getById($websiteId) {
+
+    public function getById($websiteId)
+    {
         /** @var \PDOStatement $query */
         $query = $this->database->prepare('SELECT * FROM websites WHERE website_id = :id');
         $query->setFetchMode(\PDO::FETCH_CLASS, Website::class);
@@ -24,6 +25,7 @@ class WebsiteManager
         $query->execute();
         /** @var Website $website */
         $website = $query->fetch(\PDO::FETCH_CLASS);
+
         return $website;
     }
 
@@ -34,6 +36,7 @@ class WebsiteManager
         $query = $this->database->prepare('SELECT * FROM websites WHERE user_id = :user');
         $query->bindParam(':user', $userId, \PDO::PARAM_INT);
         $query->execute();
+
         return $query->fetchAll(\PDO::FETCH_CLASS, Website::class);
     }
 
@@ -46,7 +49,23 @@ class WebsiteManager
         $statement->bindParam(':host', $hostname, \PDO::PARAM_STR);
         $statement->bindParam(':user', $userId, \PDO::PARAM_INT);
         $statement->execute();
+
         return $this->database->lastInsertId();
+    }
+
+    /**
+     * @param $hostname
+     *
+     * @return mixed
+     */
+    public function getByHostname($hostname)
+    {
+        $query = $this->database->prepare('SELECT * FROM websites WHERE hostname = :hostname LIMIT 1');
+        $query->bindParam(':hostname', $hostname, \PDO::PARAM_STR);
+        $query->setFetchMode(\PDO::FETCH_CLASS, Website::class);
+        $website = $query->fetch(\PDO::FETCH_CLASS);
+
+        return $website;
     }
 
 }

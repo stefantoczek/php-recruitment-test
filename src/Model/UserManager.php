@@ -26,6 +26,7 @@ class UserManager
         $query->execute();
         /** @var User $user */
         $user = $query->fetch(\PDO::FETCH_CLASS);
+
         return $user;
     }
 
@@ -40,17 +41,28 @@ class UserManager
         $statement->bindParam(':salt', $salt, \PDO::PARAM_STR);
         $statement->bindParam(':name', $displayName, \PDO::PARAM_STR);
         $statement->execute();
+
         return $this->database->lastInsertId();
     }
 
     public function verifyPassword(User $user, $password)
     {
         $hash = $this->hashPassword($password, $user->getPasswordSalt());
+
         return $hash === $user->getPasswordHash();
     }
 
     protected function hashPassword($password, $salt)
     {
         return hash('sha512', $password . $salt);
+    }
+
+    public function getLoggedUser()
+    {
+        if (isset($_SESSION['login'])) {
+            return $this->getByLogin($_SESSION['login']);
+        }
+
+        return null;
     }
 }

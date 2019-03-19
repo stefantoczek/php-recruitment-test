@@ -32,7 +32,7 @@ class Migration
 
         $currentVersions = $this->getCurrentVersions();
         ksort($currentVersions);
-        
+
         $executed = [];
 
         foreach ($migrations as $component => $version) {
@@ -45,7 +45,7 @@ class Migration
                 ];
             }
         }
-        
+
         return $executed;
     }
 
@@ -61,6 +61,7 @@ class Migration
         foreach ($data as $row) {
             $result[$row['component']] = $row['version'];
         }
+
         return $result;
     }
 
@@ -69,7 +70,7 @@ class Migration
         $className = $component . '\\Migration\\Version' . $i;
         $this->invoker->call($className);
 
-        if($this->database->errorCode() > 0) {
+        if ($this->database->errorCode() > 0) {
             throw new \PDOException(implode(" ", $this->database->errorInfo()));
         }
 

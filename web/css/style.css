@@ -1,10 +1,12 @@
 body {
     padding-top: 50px;
 }
+
 .starter-template {
     padding: 40px 15px;
     text-align: center;
 }
+
 .bg-info {
     padding: 15px;
 }
@@ -15,4 +17,63 @@ body {
 
 .padded {
     padding: 15px;
+}
+
+.varnish-update-button {
+    display: none;
+}
+
+.ajax-loader {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: rgba(120, 120, 120, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.table-container {
+    position: relative;
+}
+
+.lds-ring {
+    display: block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: 20% auto;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

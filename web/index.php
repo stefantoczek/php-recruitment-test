@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 
 use Snowdog\DevTest\Component\Menu;
 use Snowdog\DevTest\Component\RouteRepository;
@@ -6,7 +7,6 @@ use Snowdog\DevTest\Component\RouteRepository;
 session_start();
 
 $container = require __DIR__ . '/../app/bootstrap.php';
-
 $routeRepository = RouteRepository::getInstance();
 
 $dispatcher = \FastRoute\simpleDispatcher($routeRepository);

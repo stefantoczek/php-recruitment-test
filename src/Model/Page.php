@@ -8,12 +8,22 @@ class Page
     public $page_id;
     public $url;
     public $website_id;
-    
+    public $last_visited;
+
+    /** @var string  */
+    private $last_visited_string;
+
     public function __construct()
     {
         $this->website_id = intval($this->website_id);
         $this->page_id = intval($this->page_id);
-    
+        $this->last_visited = (int)$this->last_visited;
+
+        if ($this->last_visited > 0) {
+            $this->last_visited_string = date("d.m.Y H:i:s", $this->last_visited);
+        } else {
+            $this->last_visited_string = 'never';
+        }
     }
 
     /**
@@ -39,6 +49,21 @@ class Page
     {
         return $this->website_id;
     }
-    
-    
+
+    /**
+     * @return int
+     */
+    public function getLastVisited()
+    {
+        return $this->last_visited;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLastVisitedString()
+    {
+        return $this->last_visited_string;
+    }
+
 }

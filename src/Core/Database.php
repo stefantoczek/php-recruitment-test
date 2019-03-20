@@ -2,11 +2,22 @@
 
 namespace Snowdog\DevTest\Core;
 
+/**
+ * Class Database
+ *
+ * @package Snowdog\DevTest\Core
+ */
 class Database
 {
     /** @var \PDO */
-    protected $pdo = null;
+    protected $pdo;
 
+    /**
+     * @param       $name
+     * @param array $arguments
+     *
+     * @return mixed
+     */
     public function __call($name, array $arguments)
     {
         if (!$this->pdo) {
@@ -30,6 +41,12 @@ class Database
         }
     }
 
+    /**
+     * @param $hostName
+     * @param $dbName
+     * @param $user
+     * @param $password
+     */
     public function persistConnectionSettings($hostName, $dbName, $user, $password)
     {
         $data = [

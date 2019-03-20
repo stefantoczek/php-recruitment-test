@@ -2,6 +2,11 @@
 
 namespace Snowdog\DevTest\Model;
 
+/**
+ * Class Page
+ *
+ * @package Snowdog\DevTest\Model
+ */
 class Page
 {
 
@@ -15,12 +20,12 @@ class Page
 
     public function __construct()
     {
-        $this->website_id = intval($this->website_id);
-        $this->page_id = intval($this->page_id);
+        $this->website_id = (int)$this->website_id;
+        $this->page_id = (int)$this->page_id;
         $this->last_visited = (int)$this->last_visited;
 
         if ($this->last_visited > 0) {
-            $this->last_visited_string = date("d.m.Y H:i:s", $this->last_visited);
+            $this->last_visited_string = date('d.m.Y H:i:s', $this->last_visited);
         } else {
             $this->last_visited_string = 'never';
         }

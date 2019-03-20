@@ -6,6 +6,11 @@ use Snowdog\DevTest\Core\Database;
 use Snowdog\DevTest\Model\UserManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 
+/**
+ * Class Version1
+ *
+ * @package Snowdog\DevTest\Migration
+ */
 class Version1
 {
     /**
@@ -21,6 +26,13 @@ class Version1
      */
     private $websiteManager;
 
+    /**
+     * Version1 constructor.
+     *
+     * @param \Snowdog\DevTest\Core\Database        $database
+     * @param \Snowdog\DevTest\Model\UserManager    $userManager
+     * @param \Snowdog\DevTest\Model\WebsiteManager $websiteManager
+     */
     public function __construct(Database $database, UserManager $userManager, WebsiteManager $websiteManager)
     {
         $this->database = $database;

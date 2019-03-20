@@ -5,6 +5,11 @@ namespace Snowdog\DevTest\Controller;
 use Snowdog\DevTest\Model\UserManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 
+/**
+ * Class CreateWebsiteAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class CreateWebsiteAction
 {
     /**
@@ -16,6 +21,12 @@ class CreateWebsiteAction
      */
     private $websiteManager;
 
+    /**
+     * CreateWebsiteAction constructor.
+     *
+     * @param \Snowdog\DevTest\Model\UserManager    $userManager
+     * @param \Snowdog\DevTest\Model\WebsiteManager $websiteManager
+     */
     public function __construct(UserManager $userManager, WebsiteManager $websiteManager)
     {
         $this->userManager = $userManager;
@@ -30,10 +41,8 @@ class CreateWebsiteAction
         if(!empty($name) && !empty($hostname)) {
             if (isset($_SESSION['login'])) {
                 $user = $this->userManager->getByLogin($_SESSION['login']);
-                if ($user) {
-                    if ($this->websiteManager->create($user, $name, $hostname)) {
-                        $_SESSION['flash'] = 'Website ' . $name . ' added!';
-                    }
+                if ($user && $this->websiteManager->create($user, $name, $hostname)) {
+                    $_SESSION['flash'] = 'Website ' . $name . ' added!';
                 }
             }
         } else {

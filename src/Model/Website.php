@@ -2,6 +2,11 @@
 
 namespace Snowdog\DevTest\Model;
 
+/**
+ * Class Website
+ *
+ * @package Snowdog\DevTest\Model
+ */
 class Website
 {
 
@@ -12,8 +17,8 @@ class Website
 
     public function __construct()
     {
-        $this->user_id = intval($this->user_id);
-        $this->website_id = intval($this->website_id);
+        $this->user_id = (int)$this->user_id;
+        $this->website_id = (int)$this->website_id;
     }
 
     /**

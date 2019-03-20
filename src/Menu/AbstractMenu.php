@@ -2,14 +2,19 @@
 
 namespace Snowdog\DevTest\Menu;
 
+/**
+ * Class AbstractMenu
+ *
+ * @package Snowdog\DevTest\Menu
+ */
 abstract class AbstractMenu
 {
     
-    public abstract function isActive();
+    abstract public function isActive();
     
-    public abstract function getHref();
+    abstract public function getHref();
     
-    public abstract function getLabel();
+    abstract public function getLabel();
     
     public function __invoke()
     {

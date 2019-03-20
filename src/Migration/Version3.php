@@ -7,6 +7,11 @@ use Snowdog\DevTest\Model\PageManager;
 use Snowdog\DevTest\Model\UserManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 
+/**
+ * Class Version3
+ *
+ * @package Snowdog\DevTest\Migration
+ */
 class Version3
 {
     /**
@@ -26,6 +31,14 @@ class Version3
      */
     private $pageManager;
 
+    /**
+     * Version3 constructor.
+     *
+     * @param \Snowdog\DevTest\Core\Database        $database
+     * @param \Snowdog\DevTest\Model\UserManager    $userManager
+     * @param \Snowdog\DevTest\Model\WebsiteManager $websiteManager
+     * @param \Snowdog\DevTest\Model\PageManager    $pageManager
+     */
     public function __construct(
         Database $database,
         UserManager $userManager,

@@ -9,15 +9,21 @@
 namespace Snowdog\DevTest\Component;
 
 use Old_Legacy_CacheWarmer_Resolver_Interface;
-use Snowdog\DevTest\Model\VarnishManager;
-use Snowdog\DevTest\Model\WebsiteManager;
 
+/**
+ * Class NewCacheWarmerResolverMethod
+ *
+ * @package Snowdog\DevTest\Component
+ */
 class NewCacheWarmerResolverMethod implements Old_Legacy_CacheWarmer_Resolver_Interface
 {
     private $ipCache = [];
     /** @var \Snowdog\DevTest\Model\Varnish */
     private $varnishes;
 
+    /**
+     * @param $hostname
+     */
     private function resolveIpAddresses($hostname)
     {
         unset($this->ipCache[$hostname]);

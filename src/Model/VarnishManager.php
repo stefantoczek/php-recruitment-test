@@ -4,6 +4,11 @@ namespace Snowdog\DevTest\Model;
 
 use Snowdog\DevTest\Core\Database;
 
+/**
+ * Class VarnishManager
+ *
+ * @package Snowdog\DevTest\Model
+ */
 class VarnishManager
 {
 
@@ -12,11 +17,21 @@ class VarnishManager
      */
     private $database;
 
+    /**
+     * VarnishManager constructor.
+     *
+     * @param \Snowdog\DevTest\Core\Database $database
+     */
     public function __construct(Database $database)
     {
         $this->database = $database;
     }
 
+    /**
+     * @param $id
+     *
+     * @return mixed
+     */
     public function getById($id)
     {
         $query = $this->database->prepare('SELECT * FROM varnishes WHERE varnish_id = :varnish_id');
@@ -27,6 +42,11 @@ class VarnishManager
         return $query->fetch(\PDO::FETCH_CLASS);
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\User $user
+     *
+     * @return array
+     */
     public function getAllByUser(User $user)
     {
         $userId = $user->getUserId();
@@ -38,6 +58,11 @@ class VarnishManager
         return $query->fetchAll(\PDO::FETCH_CLASS, Varnish::class);
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\Varnish $varnish
+     *
+     * @return array
+     */
     public function getWebsites(Varnish $varnish)
     {
         $varnishId = $varnish->getVarnishId();
@@ -49,6 +74,11 @@ class VarnishManager
         return $query->fetchAll(\PDO::FETCH_CLASS, Website::class);
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\Website $website
+     *
+     * @return array
+     */
     public function getByWebsite(Website $website)
     {
         $websiteId = $website->getWebsiteId();
@@ -60,6 +90,12 @@ class VarnishManager
         return $query->fetchAll(\PDO::FETCH_CLASS, Varnish::class);
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\User $user
+     * @param                             $ip
+     *
+     * @return string
+     */
     public function create(User $user, $ip)
     {
         $userId = $user->getUserId();
@@ -71,6 +107,12 @@ class VarnishManager
         return $this->database->lastInsertId();
     }
 
+    /**
+     * @param $varnish
+     * @param $website
+     *
+     * @return string
+     */
     public function link($varnish, $website)
     {
         $statement = $this->database->prepare('INSERT INTO varnish_website (varnish_id, website_id) VALUES (:varnish_id, :website_id)');
@@ -81,6 +123,10 @@ class VarnishManager
         return $this->database->lastInsertId();
     }
 
+    /**
+     * @param $varnish
+     * @param $website
+     */
     public function unlink($varnish, $website)
     {
         $statement = $this->database->prepare('DELETE FROM varnish_website where varnish_id = :varnish_id AND website_id = :website_id');

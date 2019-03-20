@@ -4,6 +4,11 @@ namespace Snowdog\DevTest\Model;
 
 use Snowdog\DevTest\Core\Database;
 
+/**
+ * Class PageManager
+ *
+ * @package Snowdog\DevTest\Model
+ */
 class PageManager
 {
 
@@ -12,11 +17,21 @@ class PageManager
      */
     private $database;
 
+    /**
+     * PageManager constructor.
+     *
+     * @param \Snowdog\DevTest\Core\Database $database
+     */
     public function __construct(Database $database)
     {
         $this->database = $database;
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\Website $website
+     *
+     * @return array
+     */
     public function getAllByWebsite(Website $website)
     {
         $websiteId = $website->getWebsiteId();
@@ -28,6 +43,12 @@ class PageManager
         return $query->fetchAll(\PDO::FETCH_CLASS, Page::class);
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\Website $website
+     * @param                                $url
+     *
+     * @return string
+     */
     public function create(Website $website, $url)
     {
         $websiteId = $website->getWebsiteId();
@@ -40,6 +61,9 @@ class PageManager
         return $this->database->lastInsertId();
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\Page $page
+     */
     public function registerVisit(Page $page)
     {
         $pageId = $page->getPageId();
@@ -65,7 +89,7 @@ class PageManager
         $direction = $directionFlag ? 'DESC' : 'ASC';
         $userId = $user->getUserId();
 
-        $query = $this->database->prepare("select p.* from pages p left join websites w on w.website_id = p.website_id where w.user_id = :user_id order by last_visited {$direction} limit 1");
+        $query = $this->database->prepare("select p.* from pages p left join websites w on w.website_id = p.website_id where w.user_id = :user_id order by last_visited, url {$direction} limit 1");
         $query->bindParam(':user_id', $userId, \PDO::PARAM_INT);
 
         $query->execute();
@@ -74,6 +98,11 @@ class PageManager
         return count($result) > 0 ? $result[0] : null;
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\User $user
+     *
+     * @return int
+     */
     public function getTotalUserPageCount(User $user)
     {
         $userId = $user->getUserId();
@@ -85,12 +114,17 @@ class PageManager
         return (int)$query->fetchColumn();
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\User $user
+     *
+     * @return array
+     */
     public function getUserPageInfo(User $user)
     {
         return [
             'page_count' => $this->getTotalUserPageCount($user),
-            'least_recently_visited' => $this->getRecentUserPageVisit($user, true),
-            'most_recently_visited' => $this->getRecentUserPageVisit($user, false),
+            'least_recently_visited' => $this->getRecentUserPageVisit($user, false),
+            'most_recently_visited' => $this->getRecentUserPageVisit($user, true)
         ];
     }
 

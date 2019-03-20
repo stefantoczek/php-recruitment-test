@@ -2,6 +2,11 @@
 
 namespace Snowdog\DevTest\Controller;
 
+/**
+ * Class LogoutAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class LogoutAction
 {
 

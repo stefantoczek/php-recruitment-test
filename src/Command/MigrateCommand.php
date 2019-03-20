@@ -9,6 +9,11 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Question\Question;
 
+/**
+ * Class MigrateCommand
+ *
+ * @package Snowdog\DevTest\Command
+ */
 class MigrateCommand
 {
 
@@ -25,6 +30,13 @@ class MigrateCommand
      */
     private $database;
 
+    /**
+     * MigrateCommand constructor.
+     *
+     * @param \Snowdog\DevTest\Core\Migration                  $migration
+     * @param \Symfony\Component\Console\Helper\QuestionHelper $helper
+     * @param \Snowdog\DevTest\Core\Database                   $database
+     */
     public function __construct(Migration $migration, QuestionHelper $helper, Database $database)
     {
         $this->migration = $migration;
@@ -32,6 +44,10 @@ class MigrateCommand
         $this->database = $database;
     }
 
+    /**
+     * @param \Symfony\Component\Console\Input\InputInterface   $input
+     * @param \Symfony\Component\Console\Output\OutputInterface $output
+     */
     public function __invoke(InputInterface $input, OutputInterface $output)
     {
         $this->testConnection($input, $output);
@@ -46,6 +62,10 @@ class MigrateCommand
         }
     }
 
+    /**
+     * @param \Symfony\Component\Console\Input\InputInterface   $input
+     * @param \Symfony\Component\Console\Output\OutputInterface $output
+     */
     private function testConnection(InputInterface $input, OutputInterface $output)
     {
         $hostQuestion = new Question('Please provide database host name: <comment>[localhost]</comment> ', 'localhost');

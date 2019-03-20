@@ -3,11 +3,11 @@
 namespace Snowdog\DevTest\Menu;
 
 /**
- * Class VarnishesMenu
+ * Class SitemapImportMenu
  *
  * @package Snowdog\DevTest\Menu
  */
-class VarnishesMenu extends AbstractMenu
+class SitemapImportMenu extends AbstractMenu
 {
 
     /**
@@ -15,7 +15,7 @@ class VarnishesMenu extends AbstractMenu
      */
     public function isActive()
     {
-        return $_SERVER['REQUEST_URI'] == '/varnish';
+        return $_SERVER['REQUEST_URI'] == '/sitemap-import';
     }
 
     /**
@@ -23,7 +23,7 @@ class VarnishesMenu extends AbstractMenu
      */
     public function getHref()
     {
-        return '/varnish';
+        return '/sitemap-import';
     }
 
     /**
@@ -31,6 +31,6 @@ class VarnishesMenu extends AbstractMenu
      */
     public function getLabel()
     {
-        return 'Varnishes';
+        return 'Sitemap Import';
     }
 }

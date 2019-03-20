@@ -4,9 +4,14 @@ namespace Snowdog\DevTest\Component;
 
 use FastRoute\RouteCollector;
 
+/**
+ * Class RouteRepository
+ *
+ * @package Snowdog\DevTest\Component
+ */
 class RouteRepository
 {
-    private static $instance = null;
+    private static $instance;
     private $routes = [];
     const HTTP_METHOD = 'http_method';
     const ROUTE = 'route';
@@ -25,12 +30,21 @@ class RouteRepository
         return self::$instance;
     }
 
+    /**
+     * @param $httpMethod
+     * @param $route
+     * @param $className
+     * @param $methodName
+     */
     public static function registerRoute($httpMethod, $route, $className, $methodName)
     {
         $instance = self::getInstance();
         $instance->addRoute($httpMethod, $route, $className, $methodName);
     }
 
+    /**
+     * @param \FastRoute\RouteCollector $r
+     */
     public function __invoke(RouteCollector $r)
     {
         foreach ($this->routes as $route) {
@@ -45,13 +59,19 @@ class RouteRepository
         }
     }
 
+    /**
+     * @param $httpMethod
+     * @param $route
+     * @param $className
+     * @param $methodName
+     */
     private function addRoute($httpMethod, $route, $className, $methodName)
     {
         $this->routes[] = [
             self::HTTP_METHOD => $httpMethod,
             self::ROUTE => $route,
             self::CLASS_NAME => $className,
-            self::METHOD_NAME => $methodName,
+            self::METHOD_NAME => $methodName
         ];
     }
 }

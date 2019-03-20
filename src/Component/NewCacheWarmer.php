@@ -10,6 +10,11 @@ namespace Snowdog\DevTest\Component;
 
 use Old_Legacy_CacheWarmer_Warmer;
 
+/**
+ * Class NewCacheWarmer
+ *
+ * @package Snowdog\DevTest\Component
+ */
 class NewCacheWarmer extends Old_Legacy_CacheWarmer_Warmer
 {
     /** @var \Snowdog\DevTest\Component\NewCacheWarmerResolverMethod */
@@ -66,12 +71,21 @@ class NewCacheWarmer extends Old_Legacy_CacheWarmer_Warmer
         $this->actor = $actor;
     }
 
+    /**
+     * @param $url
+     *
+     * @return bool|void
+     */
     public function warm($url)
     {
         $ips = $this->resolver->getIp($this->hostname);
+        $warmed = false;
         foreach ($ips as $ip) {
             sleep(1); // this emulates visit to http://$hostname/$url via $ip
             $this->actor->act($this->hostname, $ip, $url);
+            $warmed = true;
         }
+
+        return $warmed;
     }
 }

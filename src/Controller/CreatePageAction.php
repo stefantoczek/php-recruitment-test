@@ -6,9 +6,24 @@ use Snowdog\DevTest\Model\PageManager;
 use Snowdog\DevTest\Model\UserManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 
+/**
+ * Class CreatePageAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class CreatePageAction
 {
+    private $userManager;
+    private $pageManager;
+    private $websiteManager;
 
+    /**
+     * CreatePageAction constructor.
+     *
+     * @param \Snowdog\DevTest\Model\UserManager    $userManager
+     * @param \Snowdog\DevTest\Model\WebsiteManager $websiteManager
+     * @param \Snowdog\DevTest\Model\PageManager    $pageManager
+     */
     public function __construct(UserManager $userManager, WebsiteManager $websiteManager, PageManager $pageManager)
     {
         $this->websiteManager = $websiteManager;
@@ -28,10 +43,8 @@ class CreatePageAction
             if ($website->getUserId() == $user->getUserId()) {
                 if (empty($url)) {
                     $_SESSION['flash'] = 'URL cannot be empty!';
-                } else {
-                    if ($this->pageManager->create($website, $url)) {
-                        $_SESSION['flash'] = 'URL ' . $url . ' added!';
-                    }
+                } elseif ($this->pageManager->create($website, $url)) {
+                    $_SESSION['flash'] = 'URL ' . $url . ' added!';
                 }
             }
         }

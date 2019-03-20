@@ -2,6 +2,11 @@
 
 namespace Snowdog\DevTest\Controller;
 
+/**
+ * Class LoginFormAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class LoginFormAction
 {
 

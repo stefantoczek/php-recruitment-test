@@ -5,13 +5,25 @@ namespace Snowdog\DevTest\Controller;
 use Snowdog\DevTest\Model\UserManager;
 use Snowdog\DevTest\Model\VarnishManager;
 
+/**
+ * Class CreateVarnishAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class CreateVarnishAction
 {
     /**
      * @var VarnishManager
      */
     private $varnishManager;
+    private $userManager;
 
+    /**
+     * CreateVarnishAction constructor.
+     *
+     * @param \Snowdog\DevTest\Model\UserManager    $userManager
+     * @param \Snowdog\DevTest\Model\VarnishManager $varnishManager
+     */
     public function __construct(UserManager $userManager, VarnishManager $varnishManager)
     {
         $this->userManager = $userManager;

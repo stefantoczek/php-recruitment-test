@@ -5,6 +5,11 @@ namespace Snowdog\DevTest\Core;
 use DI\InvokerInterface;
 use Snowdog\DevTest\Component\Migrations;
 
+/**
+ * Class Migration
+ *
+ * @package Snowdog\DevTest\Core
+ */
 class Migration
 {
     const COMPONENT = 'component';
@@ -19,12 +24,21 @@ class Migration
      */
     private $database;
 
+    /**
+     * Migration constructor.
+     *
+     * @param \DI\InvokerInterface           $invoker
+     * @param \Snowdog\DevTest\Core\Database $database
+     */
     public function __construct(InvokerInterface $invoker, Database $database)
     {
         $this->invoker = $invoker;
         $this->database = $database;
     }
 
+    /**
+     * @return array
+     */
     public function execute()
     {
         $migrations = Migrations::getInstance()->getComponentMigrations();
@@ -41,7 +55,7 @@ class Migration
                 $this->migrate($component, $i);
                 $executed[] = [
                     self::COMPONENT => $component,
-                    self::VERSION => $i,
+                    self::VERSION => $i
                 ];
             }
         }
@@ -49,6 +63,9 @@ class Migration
         return $executed;
     }
 
+    /**
+     * @return array
+     */
     private function getCurrentVersions()
     {
         $this->testComponentsTable();
@@ -65,13 +82,17 @@ class Migration
         return $result;
     }
 
+    /**
+     * @param $component
+     * @param $i
+     */
     private function migrate($component, $i)
     {
         $className = $component . '\\Migration\\Version' . $i;
         $this->invoker->call($className);
 
         if ($this->database->errorCode() > 0) {
-            throw new \PDOException(implode(" ", $this->database->errorInfo()));
+            throw new \PDOException(implode(' ', $this->database->errorInfo()));
         }
 
         /** @var \PDOStatement $sql */

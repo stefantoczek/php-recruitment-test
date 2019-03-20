@@ -2,6 +2,11 @@
 
 namespace Snowdog\DevTest\Model;
 
+/**
+ * Class Varnish
+ *
+ * @package Snowdog\DevTest\Model
+ */
 class Varnish
 {
 
@@ -11,8 +16,8 @@ class Varnish
 
     public function __construct()
     {
-        $this->user_id = intval($this->user_id);
-        $this->varnish_id = intval($this->varnish_id);
+        $this->user_id = (int)$this->user_id;
+        $this->varnish_id = (int)$this->varnish_id;
     }
 
     /**

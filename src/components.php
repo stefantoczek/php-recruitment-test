@@ -1,6 +1,7 @@
 <?php
 
 use Snowdog\DevTest\Command\MigrateCommand;
+use Snowdog\DevTest\Command\SitemapLoadCommand;
 use Snowdog\DevTest\Command\WarmCommand;
 use Snowdog\DevTest\Component\CommandRepository;
 use Snowdog\DevTest\Component\Menu;
@@ -16,15 +17,20 @@ use Snowdog\DevTest\Controller\LoginFormAction;
 use Snowdog\DevTest\Controller\LogoutAction;
 use Snowdog\DevTest\Controller\RegisterAction;
 use Snowdog\DevTest\Controller\RegisterFormAction;
+use Snowdog\DevTest\Controller\SitemapImportAction;
+use Snowdog\DevTest\Controller\SitemapImportPostAction;
 use Snowdog\DevTest\Controller\VarnishesAction;
 use Snowdog\DevTest\Controller\WebsiteAction;
 use Snowdog\DevTest\Menu\LoginMenu;
 use Snowdog\DevTest\Menu\RegisterMenu;
+use Snowdog\DevTest\Menu\SitemapImportMenu;
 use Snowdog\DevTest\Menu\VarnishesMenu;
 use Snowdog\DevTest\Menu\WebsitesMenu;
 
 RouteRepository::registerRoute('GET', '/', IndexAction::class, 'execute');
 RouteRepository::registerRoute('GET', '/login', LoginFormAction::class, 'execute');
+RouteRepository::registerRoute('GET', '/sitemap-import', SitemapImportAction::class, 'execute');
+RouteRepository::registerRoute('POST', '/sitemap-import', SitemapImportPostAction::class, 'execute');
 RouteRepository::registerRoute('POST', '/login', LoginAction::class, 'execute');
 RouteRepository::registerRoute('GET', '/logout', LogoutAction::class, 'execute');
 RouteRepository::registerRoute('GET', '/register', RegisterFormAction::class, 'execute');
@@ -38,10 +44,12 @@ RouteRepository::registerRoute('POST', '/varnish-link', CreateVarnishLinkAction:
 
 CommandRepository::registerCommand('migrate_db', MigrateCommand::class);
 CommandRepository::registerCommand('warm [id]', WarmCommand::class);
+CommandRepository::registerCommand('load_sitemap [username] [filename]', SitemapLoadCommand::class);
 
 Menu::register(LoginMenu::class, 200);
 Menu::register(RegisterMenu::class, 250);
 Menu::register(WebsitesMenu::class, 10);
 Menu::register(VarnishesMenu::class, 40);
+Menu::register(SitemapImportMenu::class, 50);
 
 Migrations::registerComponentMigration('Snowdog\\DevTest', 4);

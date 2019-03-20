@@ -7,6 +7,11 @@ use Snowdog\DevTest\Model\Varnish;
 use Snowdog\DevTest\Model\VarnishManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 
+/**
+ * Class VarnishesAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class VarnishesAction
 {
     /**
@@ -25,6 +30,13 @@ class VarnishesAction
      */
     private $websiteManager;
 
+    /**
+     * VarnishesAction constructor.
+     *
+     * @param \Snowdog\DevTest\Model\UserManager    $userManager
+     * @param \Snowdog\DevTest\Model\VarnishManager $varnishManager
+     * @param \Snowdog\DevTest\Model\WebsiteManager $websiteManager
+     */
     public function __construct(
         UserManager $userManager,
         VarnishManager $varnishManager,
@@ -38,6 +50,9 @@ class VarnishesAction
         $this->websiteManager = $websiteManager;
     }
 
+    /**
+     * @return array
+     */
     public function getVarnishes()
     {
         if ($this->user) {
@@ -47,6 +62,9 @@ class VarnishesAction
         return [];
     }
 
+    /**
+     * @return array
+     */
     public function getWebsites()
     {
         if ($this->user) {
@@ -56,6 +74,11 @@ class VarnishesAction
         return [];
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\Varnish $varnish
+     *
+     * @return array
+     */
     public function getAssignedWebsiteIds(Varnish $varnish)
     {
         $websites = $this->varnishManager->getWebsites($varnish);
@@ -69,7 +92,6 @@ class VarnishesAction
 
     public function execute()
     {
-        header('Access-Control-Allow-Origin: *');
         include __DIR__ . '/../view/varnish.phtml';
     }
 

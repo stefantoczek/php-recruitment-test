@@ -7,6 +7,11 @@ use Snowdog\DevTest\Model\User;
 use Snowdog\DevTest\Model\UserManager;
 use Snowdog\DevTest\Model\WebsiteManager;
 
+/**
+ * Class IndexAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class IndexAction
 {
 
@@ -30,6 +35,13 @@ class IndexAction
      */
     private $userPageInfo;
 
+    /**
+     * IndexAction constructor.
+     *
+     * @param \Snowdog\DevTest\Model\UserManager    $userManager
+     * @param \Snowdog\DevTest\Model\WebsiteManager $websiteManager
+     * @param \Snowdog\DevTest\Model\PageManager    $pageManager
+     */
     public function __construct(UserManager $userManager, WebsiteManager $websiteManager, PageManager $pageManager)
     {
         $this->websiteManager = $websiteManager;
@@ -39,6 +51,9 @@ class IndexAction
         }
     }
 
+    /**
+     * @return array
+     */
     protected function getWebsites()
     {
         if ($this->user) {
@@ -48,6 +63,11 @@ class IndexAction
         return [];
     }
 
+    /**
+     * @param $key
+     *
+     * @return mixed|string
+     */
     protected function getUserPageInfo($key)
     {
         if (array_key_exists($key, $this->userPageInfo)) {

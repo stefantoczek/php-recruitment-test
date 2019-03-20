@@ -71,10 +71,12 @@
                         </tr>
                         <?php foreach ($this->getWebsites() as $website): /** @var \Snowdog\DevTest\Model\Website $website */ ?>
                             <tr>
-                                <td><input type="checkbox" class="varnish-website-checkbox"
-                                           data-website-id="<?= $website->getWebsiteId(); ?>"
-                                        <?= in_array($website->getWebsiteId(),
-                                            $websiteIds) ? 'checked="checked"' : '' ?>/></td>
+                                <td><label>
+                                        <input type="checkbox" class="varnish-website-checkbox"
+                                                   data-website-id="<?= $website->getWebsiteId(); ?>"
+                                                <?= in_array($website->getWebsiteId(),
+                                                    $websiteIds) ? 'checked="checked"' : '' ?>/>
+                                    </label></td>
                                 <td><?= $website->getName() ?></td>
                                 <td><?= $website->getHostname() ?></td>
                             </tr>

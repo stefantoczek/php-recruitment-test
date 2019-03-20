@@ -4,6 +4,11 @@ namespace Snowdog\DevTest\Model;
 
 use Snowdog\DevTest\Core\Database;
 
+/**
+ * Class WebsiteManager
+ *
+ * @package Snowdog\DevTest\Model
+ */
 class WebsiteManager
 {
     /**
@@ -11,11 +16,21 @@ class WebsiteManager
      */
     private $database;
 
+    /**
+     * WebsiteManager constructor.
+     *
+     * @param \Snowdog\DevTest\Core\Database $database
+     */
     public function __construct(Database $database)
     {
         $this->database = $database;
     }
 
+    /**
+     * @param $websiteId
+     *
+     * @return \Snowdog\DevTest\Model\Website
+     */
     public function getById($websiteId)
     {
         /** @var \PDOStatement $query */
@@ -29,6 +44,11 @@ class WebsiteManager
         return $website;
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\User $user
+     *
+     * @return array
+     */
     public function getAllByUser(User $user)
     {
         $userId = $user->getUserId();
@@ -40,6 +60,13 @@ class WebsiteManager
         return $query->fetchAll(\PDO::FETCH_CLASS, Website::class);
     }
 
+    /**
+     * @param \Snowdog\DevTest\Model\User $user
+     * @param                             $name
+     * @param                             $hostname
+     *
+     * @return string
+     */
     public function create(User $user, $name, $hostname)
     {
         $userId = $user->getUserId();
@@ -63,9 +90,8 @@ class WebsiteManager
         $query = $this->database->prepare('SELECT * FROM websites WHERE hostname = :hostname LIMIT 1');
         $query->bindParam(':hostname', $hostname, \PDO::PARAM_STR);
         $query->setFetchMode(\PDO::FETCH_CLASS, Website::class);
-        $website = $query->fetch(\PDO::FETCH_CLASS);
 
-        return $website;
+        return $query->fetch(\PDO::FETCH_CLASS);
     }
 
 }

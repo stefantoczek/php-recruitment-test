@@ -5,6 +5,11 @@ namespace Snowdog\DevTest\Controller;
 use Snowdog\DevTest\Model\User;
 use Snowdog\DevTest\Model\UserManager;
 
+/**
+ * Class LoginAction
+ *
+ * @package Snowdog\DevTest\Controller
+ */
 class LoginAction
 {
     /**
@@ -12,6 +17,11 @@ class LoginAction
      */
     private $userManager;
 
+    /**
+     * LoginAction constructor.
+     *
+     * @param \Snowdog\DevTest\Model\UserManager $userManager
+     */
     public function __construct(UserManager $userManager)
     {
         $this->userManager = $userManager;
@@ -24,13 +34,11 @@ class LoginAction
 
         /** @var User $user */
         $user = $this->userManager->getByLogin($login);
-        if($user) {
-            if($this->userManager->verifyPassword($user, $password)) {
-                $_SESSION['login'] = $login;
-                $_SESSION['flash'] = 'Hello ' . $user->getDisplayName() . '!';
-                header('Location: /');
-                return;
-            }
+        if($user && $this->userManager->verifyPassword($user, $password)) {
+            $_SESSION['login'] = $login;
+            $_SESSION['flash'] = 'Hello ' . $user->getDisplayName() . '!';
+            header('Location: /');
+            return;
         }
 
         $_SESSION['flash'] = 'Incorrect login or password';

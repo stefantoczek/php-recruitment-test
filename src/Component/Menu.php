@@ -4,6 +4,11 @@ namespace Snowdog\DevTest\Component;
 
 use DI\InvokerInterface;
 
+/**
+ * Class Menu
+ *
+ * @package Snowdog\DevTest\Component
+ */
 class Menu
 {
     const CLASS_NAME = 'classname';
@@ -19,16 +24,24 @@ class Menu
         if (!self::$instance) {
             self::$instance = new self();
         }
+
         return self::$instance;
     }
-    
+
+    /**
+     * @param $className
+     * @param $sortOrder
+     */
     public static function register($className, $sortOrder)
     {
         $instance = self::getInstance();
         $instance->registerMenuItem($className, $sortOrder);
     }
 
-    public static function setContainer(InvokerInterface $container)
+    /**
+     * @param $container
+     */
+    public static function setContainer($container)
     {
         $instance = self::getInstance();
         $instance->registerContainer($container);
@@ -39,35 +52,50 @@ class Menu
         require __DIR__ . '/../view/menu.phtml';
     }
 
+    /**
+     * @return array
+     */
     private function getMenus()
     {
         usort($this->items, function ($a, $b) {
             if ($a[self::SORT_ORDER] == $b[self::SORT_ORDER]) {
                 return 0;
             }
+
             return ($a[self::SORT_ORDER] < $b[self::SORT_ORDER]) ? -1 : 1;
         });
         $menus = [];
         foreach ($this->items as $menu) {
             $menus[] = $menu[self::CLASS_NAME];
         }
+
         return $menus;
     }
 
+    /**
+     * @param $className
+     */
     private function renderItem($className)
     {
         $this->container->call($className);
     }
 
+    /**
+     * @param $className
+     * @param $sortOrder
+     */
     private function registerMenuItem($className, $sortOrder)
     {
         $this->items[] = [
             self::CLASS_NAME => $className,
-            self::SORT_ORDER => $sortOrder,
+            self::SORT_ORDER => $sortOrder
         ];
     }
 
-    private function registerContainer(InvokerInterface $container)
+    /**
+     * @param $container
+     */
+    private function registerContainer($container)
     {
         $this->container = $container;
     }

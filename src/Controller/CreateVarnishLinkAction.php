@@ -51,8 +51,12 @@ class CreateVarnishLinkAction
             /** @var string $data */
             $data = file_get_contents('php://input');
             /** @var array $decodedData */
-            $decodedData = json_decode($data);
-            $error = $this->processDecodedData($decodedData);
+            if ($data) {
+                $decodedData = json_decode($data);
+                $error = $this->processDecodedData($decodedData);
+            } else {
+                $error = true;
+            }
         }
 
         return json_encode(!$error);
@@ -94,6 +98,12 @@ class CreateVarnishLinkAction
      */
     private function processDecodedData($decodedData)
     {
+        $error = false;
+        /**
+         * @var string $varnishId
+         * @var array  $websites
+         * @var array  $decodedData
+         */
         foreach ($decodedData as $varnishId => $websites) {
             /** @var Varnish $varnish */
             $varnish = $this->varnishManager->getById((int)$varnishId);

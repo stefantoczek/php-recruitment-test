@@ -16,43 +16,27 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class SitemapLoadCommand
 {
-    /**
-     * @var WebsiteManager
-     */
-    private $websiteManager;
-    /**
-     * @var PageManager
-     */
-    private $pageManager;
-    /**
-     * @var \Snowdog\DevTest\Model\VarnishManager
-     */
-    private $varnishManager;
-    /**
-     * @var \Snowdog\DevTest\Command\SitemapParser
-     */
+    /** @var \Stefantoczek\SitemapParser\SitemapParser */
     private $sitemapParser;
     /**
      * @var \Snowdog\DevTest\Model\UserManager
      */
     private $userManager;
 
+    /** @var \Snowdog\DevTest\Component\DatabaseWebsiteSetter $databaseWebsiteSetter */
     private $databaseWebsiteSetter;
 
     /**
      * SitemapLoadCommand constructor.
      *
      * @param \Stefantoczek\SitemapParser\SitemapParser        $sitemapParser
-     * @param \Snowdog\DevTest\Model\UserManager               $userManager
      * @param \Snowdog\DevTest\Component\DatabaseWebsiteSetter $databaseWebsiteSetter
      */
     public function __construct(
         SitemapParser $sitemapParser,
-        UserManager $userManager,
         DatabaseWebsiteSetter $databaseWebsiteSetter
     ) {
         $this->sitemapParser = $sitemapParser;
-        $this->userManager = $userManager;
         $this->databaseWebsiteSetter = $databaseWebsiteSetter;
     }
 
@@ -63,7 +47,6 @@ class SitemapLoadCommand
      */
     public function __invoke($username, $filename, OutputInterface $output)
     {
-        $user = $this->userManager->getByLogin($username);
         $this->sitemapParser
             ->setWebsiteDatabaseSetter($this->databaseWebsiteSetter)
             ->loadFromFile($filename)

@@ -9,13 +9,12 @@ namespace Snowdog\DevTest\Menu;
  */
 class LoginMenu extends AbstractMenu
 {
-
     /**
      * @return bool
      */
     public function isActive()
     {
-        return $_SERVER['REQUEST_URI'] == '/login';
+        return $_SERVER['REQUEST_URI'] === '/login';
     }
 
     /**
@@ -23,7 +22,7 @@ class LoginMenu extends AbstractMenu
      */
     public function getHref()
     {
-        if(isset($_SESSION['login'])) {
+        if (isset($_SESSION['login'])) {
             return '/logout';
         }
 
@@ -35,11 +34,11 @@ class LoginMenu extends AbstractMenu
      */
     public function getLabel()
     {
-        if(isset($_SESSION['login'])) {
+        if (isset($_SESSION['login'])) {
             return 'Logout';
         }
 
         return 'Login';
     }
-    
+
 }

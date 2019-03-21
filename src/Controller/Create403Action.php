@@ -3,14 +3,14 @@
 namespace Snowdog\DevTest\Controller;
 
 /**
- * Class RegisterFormAction
+ * Class CreatePageAction
  *
  * @package Snowdog\DevTest\Controller
  */
-class RegisterFormAction
+class Create403Action
 {
     public function execute()
     {
-        require __DIR__ . '/../view/register.phtml';
+        require __DIR__ . '/../view/403.phtml';
     }
 }

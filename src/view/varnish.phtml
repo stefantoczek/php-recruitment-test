@@ -54,9 +54,8 @@
             </span>
         </div>
         <div class="table-container container">
-            <span class="ajax-loader">
-                <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-            </span>
+            <div class="ajax-loader">
+            </div>
             <?php foreach ($this->getVarnishes() as $varnish): /** @var \Snowdog\DevTest\Model\Varnish $varnish */ ?>
                 <?php $websiteIds = $this->getAssignedWebsiteIds($varnish) ?>
                 <h2><?= $varnish->getIpAddress() ?></h2>
@@ -73,9 +72,9 @@
                             <tr>
                                 <td><label>
                                         <input type="checkbox" class="varnish-website-checkbox"
-                                                   data-website-id="<?= $website->getWebsiteId(); ?>"
-                                                <?= in_array($website->getWebsiteId(),
-                                                    $websiteIds) ? 'checked="checked"' : '' ?>/>
+                                               data-website-id="<?= $website->getWebsiteId(); ?>"
+                                            <?= in_array($website->getWebsiteId(),
+                                                $websiteIds) ? 'checked="checked"' : '' ?>/>
                                     </label></td>
                                 <td><?= $website->getName() ?></td>
                                 <td><?= $website->getHostname() ?></td>

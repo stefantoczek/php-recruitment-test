@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://stackoverflow.com/</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/tour</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/company</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/cookie-policy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/privacy-policy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/terms-of-service/public</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/jobs?med=site-ui&amp;ref=jobs-tab</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/teams</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/login?ssrc=anon_ask&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2fask</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/?tab=interesting</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/?tab=featured</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/?tab=hot</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/?tab=week</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/?tab=month</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237746/how-to-extract-information-on-polygon-count-from-a-fbx-bianry-file-using-python</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/python</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/binary</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ascii</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/fbx</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11225384/adi</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237742/laravel-validation-digits</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/php</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/laravel</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10922719/dronax</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55224690/fullcalendar-event-object-non-standard-fields-gcal</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/javascript</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/fullcalendar</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/google-calendar-api</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/fullcalendar-3</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5947043/adyson</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237741/how-to-recalculate-and-not-just-scale-transform-svg-path-to-fit-bounding-box</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/svg</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/path</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/vega</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/vega-lite</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/4550126/corvince</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237738/change-the-svg-image-to-the-text-in-the-navigation-bar-bootsrap</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/css</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/bootstrap-4</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/icons</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9989779/maddie-graham</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237737/how-to-get-the-path-of-the-document-inside-jar-in-spring-boot</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/java</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/spring</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/spring-boot</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/4804881/coders</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237734/tsc-throws-errors-where-ts-node-doesnt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/typescript</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/tsc</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ts-node</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/1148189/zaphod1984</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237733/how-to-use-celery-group-and-chains-to-achieve-combination-of-synchronous-and-asy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/celery</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/django-celery</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/celery-task</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6477565/albin-antony</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237731/get-the-correct-visualstudioversion-for-vs-2017-inside-a-msbuild-file</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/visual-studio</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/msbuild</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/visual-studio-2017</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/visual-studio-2017-build-tools</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11129371/tastydb</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237730/waiting-to-run-over-default-60-seconds-seleinium-c-sharp</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/c%23</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/selenium</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/timeout</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/selenium-chromedriver</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/8524602/xxx</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237728/python-function-executed-in-java-class-and-mongodb-database</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/mongodb</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/jython-2.7</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10815961/d-haythem10</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237724/adobe-experience-manager-blackbox-web-api-for-external-access</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/aem</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2090341/matthias-m%c3%bcller</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237722/forceformularecalculation-overwrites-setcellvalue-npoi-c-sharp-how-can-i-avoid-t</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10035123/floka</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/12519293/resize-photo-in-appcelerator-titanium-before-save</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/android</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/iphone</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/camera</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/titanium</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/appcelerator</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/3082296/adiga</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237719/for-analyse-react-native-project-which-one-is-better-flow-or-sonarqube</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/react-native</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sonarqube</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/flow</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6521990/tarun</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237718/git-remote-set-url-command-changes-urls-of-multiple-folders</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/git</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/version-control</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/7226638/valeria-s</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237715/request-handler-instance-not-found-in-vue-authenticate</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/vue.js</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/vuejs2</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5060959/pawan-kumar</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237714/in-codeigniter-how-to-access-the-folder-thats-outside-of-application-folder-us</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/wordpress</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/codeigniter</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9343466/adnan-arif</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237713/getting-signature-invalid-with-apache-pdfbox-in-java</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/apache</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/digital-signature</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/pdfbox</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/x509certificate</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/1542453/ylg</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237710/n1ql-edit-object-inside-array</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/database</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/couchbase</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/n1ql</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2699050/le-g</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237708/2-jlabel-painted-at-the-same-time</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/jlabel</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10891826/eloi</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237707/distribute-ios-app-to-selected-devices-without-paying-for-developer-program</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ios</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/xcode</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/1376627/david-adler</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237706/correct-restful-method-for-checking-input-data-matches-database-record</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/rest</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5640115/chrisheseltine</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237705/questions-on-sql-ado-net</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sql</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ado.net</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11037129/vova-makarovych</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55236716/process-exporter-fails-to-find-the-single-process-im-interested-in</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/prometheus</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/prometheus-process-exporter</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/162294/kristofer</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237702/upload-collection-the-object-with-id-ia-indicator-was-destroyed-and-cannot</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sapui5</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sap</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11225322/ialex</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237701/clickable-links-inside-accordion-html-css-only</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/html</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10699239/levitt-shan-he</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237697/best-method-to-tackle-both-csrf-and-authentication-problem-in-nodejs-server</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/node.js</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/web</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/jwt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/csrf</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10070528/harshith-shankar-t-r</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237696/android-mp-chart-how-to-display-labels-in-x-axis-based-on-x-and-y-axies-intersec</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9882449/mshetty</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237538/how-to-stop-refreshing-fragments-on-tab-touch-androidx</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/android-tablayout</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/android-tabs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/androidx</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9908964/johans-bormman</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/44311943/asp-net-mvc-5-session-is-not-clearing-after-calling-abandon</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/asp.net</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/asp.net-mvc</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/model-view-controller</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/asp.net-mvc-5</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/155077/stefan-steiger</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237694/flink-how-to-save-list-of-rows-in-database</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/apache-flink</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/flink-streaming</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/8012456/ankit</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237693/how-to-show-images-in-x-aixs-instead-of-legend-in-columnchart-google-charts</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/google-visualization</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11120279/n-zia</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237690/stop-refreshing-navigation-partial-view-in-mvc-layout-or-load-the-navigation-o</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/jquery</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ajax</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/layout</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5227669/shankar</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237688/android-chipgroup-multiline-text-in-chips</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/3253113/abdullah</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237687/how-to-disable-year-selection-in-datepicker</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/wpf</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/xaml</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10950788/sfarzoso</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237686/innosetup-show-custom-page-with-picture-if-a-task-checked</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/installation</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/windows-installer</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/install</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/installer</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/inno-setup</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5507014/vadim-pavlovich</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237684/cbc-using-desdecrypt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/bouncycastle</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9986967/%d0%95%d0%b2%d0%b3%d0%b5%d0%bd%d0%b8%d0%b9-%d0%a8%d1%82%d0%b8%d0%bd</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237155/django-reusable-apps-modulenotfounderror</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/django</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/django-apps</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6794568/astik-anand</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237681/passing-props-values-to-component</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/properties</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/components</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/533941/toni-michel-caubet</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237678/monolog-logger-print-object-to-cli</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/symfony</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/monolog</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5065577/bogdan-dubyk</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237677/activemq-restriction-to-tlsv1-2-as-transport-protocol-does-not-work</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/activemq</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/mqtt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9334876/robson</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237671/xpage-does-not-render-correctly</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/xpages</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/lotus-domino</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2968579/tom-van-aken</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237187/problems-uploading-xslx-file-in-body-of-post-request-to-net-core-app-on-aws-lam</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/excel</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/amazon-web-services</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/.net-core</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/aws-lambda</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/postman</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2855190/vincent</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237670/append-new-xml-node-under-existing-xml-nodes-using-xslt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/xslt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11224991/jagan</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237492/how-will-jvm-deal-with-the-default-properties-in-serializable</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6682274/sudhir-ojha</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237658/elixir-phoenix-app-deployed-to-ec2-instance</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/elixir</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/phoenix-framework</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6689105/hemedi</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237657/sql-combine-values-in-a-vertical-table-using-a-stored-procedure</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sql-server</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/tsql</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sql-update</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9795135/davep</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237656/ora-01722-invalid-number-01722-00000-invalid-number</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/mysql</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/oracle</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/7219429/lira</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/54980992/how-do-i-make-sure-my-keras-tensorflow-code-uses-my-macbook-pros-amd-graphics-c</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/tensorflow</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/keras</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/neural-network</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/gpu</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/7667589/pawe%c5%82-d</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5069223/bhavin-solanki</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237205/how-to-get-all-values-for-a-certain-field-in-django-orm</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6634978/rabin-lama-dong</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237645/powershell-bulk-remove-adgroupmember</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/arrays</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/powershell</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11225248/johnnie</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55236698/recursively-combine-dictionaries</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/python-3.x</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/recursion</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/3989380/user</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237635/browsermob-proxyselenium-with-vpn-not-working-on-mac-but-works-on-windows</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/proxy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/host</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/browsermob-proxy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10851172/josh</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237632/how-to-use-findallby-with-multiple-fields-in-a-jparepository</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/hibernate</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/jpa</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/kotlin</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/spring-data-jpa</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/1866775/tobias-hermann</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55229399/circe-force-an-optional-field-to-null</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/scala</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/circe</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/8048260/shantiswarup-tunga</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237279/azure-web-app-bot-webhook-text-with-facebook-always-drop-on-v4</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/facebook</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/botframework</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/facebook-webhooks</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5230734/eugene</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237619/expression-expected-in-react-using-switch-statement</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/reactjs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/8274024/jokerbean</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/45532935/passing-an-object-to-a-pipe-instead-of-keys-in-angular-2</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/angular</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/angular2-template</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/angular-pipe</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5031163/emanuel-kay</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237614/how-to-customize-recharts-over-the-devices</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/recharts</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6452334/dwp</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55232650/how-to-store-list-of-object-data-in-sqlite-on-flutter</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/dart</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/flutter</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9538631/gypsy-rider</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237608/getting-error-in-hangfire-with-postgresql-log-file</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/postgresql</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/log4net</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/hangfire</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/hangfire-sql</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2739697/jophy-job</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55169488/is-there-any-posssible-ways-to-take-scheduled-postgresql-daily-backup-and-push-i</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ubuntu</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/amazon-s3</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2620192/pierreocinom</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237590/how-to-get-model-summary-with-serial-numbers-in-keras</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/3890632/khelwood</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55236245/cypher-entity-order-anomaly</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/neo4j</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/cypher</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/r-neo4j</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/1156245/geotheory</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237592/phpmailer-cannot-connect-with-smtp</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/outlook</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/smtp</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/gmail</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/phpmailer</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/email-client</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5320987/jol123</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237582/nameerror-name-merge-is-not-defined</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10961356/ashna-eldho</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237106/how-to-display-the-last-page-when-i-visit-the-website-in-wordpress</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10532500/suraj-kumar</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237573/open-layers-4-5-tap-touch-on-a-point-android-devices</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/cordova</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/openlayers</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/angular-openlayers</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/4082623/giridhar-kandachar</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237564/how-to-open-the-dll-file-soil-model-sent-by-plaxis-to-see-how-the-model-is-co</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/dll</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11225331/cyxangel223</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237560/biztalk-2016-sharepoint-adapter-force-use-of-port-443</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sharepoint</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/sharepoint-2013</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/biztalk</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/csom</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/biztalk-2016</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/41169/rob-bowman</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237558/mongodb-server-not-running</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/mongoose</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/10407830/tan12</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237556/white-spaces-new-lines-reading-xml-using-stax-characters-event-data</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/xml</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/stax</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9979475/george</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237554/what-happened-to-polymorphism-for-jooq-generated-classes</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/generics</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/inheritance</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/polymorphism</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/jooq</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/3322533/user1291</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237553/is-there-a-way-to-combine-multiple-pnp-provisioning-xml-into-one</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/provisioning</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9930248/timhaka</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237551/outlook-web-addin-cannot-read-property-version-of-null-in-outlook-web-16-01-js</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/office-js</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/outlook-web-addins</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/6265620/tao-zhou</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237055/databinding-fails-with-jaxb-class-not-found-exception-during-compilation-using</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/dagger-2</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/android-databinding</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/kapt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2413303/epicpandaforce</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237548/hololens-spatialmapping-not-available</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/unity3d</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/hololens</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/2838509/npadrutt</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237543/ngstyle-in-angular-7-css-grid-layout-not-working-properly</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/angular7</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ng-style</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/831909/naresh-mesineni</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237527/openssl-1-1-1-and-libssl-package</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/openssl</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9450506/siddalinga-swamy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237525/comparing-the-results-from-lpsolve-to-linprog-is-it-a-problem-in-implementation</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/r</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/scipy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/linear-programming</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/lpsolve</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/7230777/noah16</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237524/make-webpack-fail-on-undefined-named-imports</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/webpack</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ecmascript-6</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/material-ui</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/200987/oligofren</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237324/how-to-change-the-background-colour-without-changing-the-dialogtoast-backgroun</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/background</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/dialog</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/styles</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/themes</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/toast</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/7404943/barbsan</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237509/more-efficient-way-to-use-cursor-loop-insert-into-and-commit-for-each-row-orac</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/loops</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/cursor</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/commit</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/bulk-collect</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/5829391/palo173</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237497/size-of-multiprocessing-queue-keeps-growing-and-setting-qsize-freezes-everything</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/queue</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/python-multiprocessing</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9201770/zubair-ahmed</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55234441/stream-error-while-trying-to-initialize-deflate-object-in-compressrawzlib</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/perl</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/zlib</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11224205/garri-djavadyan</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237475/connecting-to-android-via-appium-server-on-different-network</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/networking</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/appium-android</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9019396/codedcoder</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237425/sign-multiple-location-with-same-response-xml-signature-in-pkcs7-cms</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/pdf</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/itext</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/content-management-system</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/signature</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/9601341/urmi-vijayvargiya</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237360/laravel-priority-order-of-queue-not-working</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/1578460/user1578460</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55182108/amazon-ses-with-django-not-in-utc-timezone</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/boto3</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/amazon-ses</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/botocore</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/django-anymail</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/1199464/markwalker</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237188/flutter-is-not-rebuilding-same-widget-with-different-parameters</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/flutter-layout</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55237109/outlook-html-signature-editing-without-autospace</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/html-email</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11225163/randolf</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55236895/ehcache-3-and-spring-boot-admin-statistics</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ehcache</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/spring-boot-actuator</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/spring-boot-admin</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/ehcache-3</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/8291287/dot-panic</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55236556/in-custom-app-with-embedded-admin-what-is-the-point-of-a-admin-without-dataprov</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/react-redux</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/admin-on-rest</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/react-admin</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/11224994/charlesj</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/unanswered</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/55216278/how-to-find-the-largest-numbers-in-a-list-of-elements-possibly-non-unique</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/jobs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/jobs/directory/developer-jobs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/jobs/salary</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/enterprise</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/company/press</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/company/work-here</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/terms-of-service</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/company/contact</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/on-topic</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/dont-ask</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/closed-questions</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/how-to-ask</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/mcve</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/asking</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/conduct</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/behavior</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/interesting-topics</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/searching</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/flair</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/stackexchange</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/site-moderators</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/why-vote</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/whats-reputation</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/declined-flags</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/locked-posts</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/reputation</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/accepted-answer</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/deleted-answers</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/answer-bans</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/how-to-answer</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/referencing</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/answering</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/badges</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/privileges</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/what-is-jobs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/why-use-jobs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/what-is-a-fake-job-listing</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/what-is-recruiter-spam</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/reporting-companies</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/jobs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/merging-accounts</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/edit-credentials</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/reset-password</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/deleting-account</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/licensing</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/account</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/macos</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions/tagged/swift</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/badges/2600/informed</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/badges/2/student</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/badges/3/editor</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/badges/24/good-answer</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/badges/32/civic-duty</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/help/badges/28/famous-question</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/company/management</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/company/salary/calculator</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/jobs/why-jobs</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/terms-of-service/private</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/api-terms-of-use</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/gdpr</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/gdpr/data-security</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/gdpr/data-subjects</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/gdpr/data-controllers</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/gdpr/data-processors</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/acceptable-use-policy</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/trademark-guidance</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/legal/contact</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/login?ssrc=user_prefs&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2fpreferences%2fcurrent</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/users/login?returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2femail%2fsettings%2fcurrent</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://stackoverflow.com/questions?sort=newest</loc>
+  <lastmod>2019-03-19T09:47:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

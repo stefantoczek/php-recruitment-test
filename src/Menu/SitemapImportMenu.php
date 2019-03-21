@@ -9,13 +9,14 @@ namespace Snowdog\DevTest\Menu;
  */
 class SitemapImportMenu extends AbstractMenu
 {
+    use LoggedUserMenuTrait;
 
     /**
      * @return bool
      */
     public function isActive()
     {
-        return $_SERVER['REQUEST_URI'] == '/sitemap-import';
+        return $_SERVER['REQUEST_URI'] === '/sitemap-import';
     }
 
     /**

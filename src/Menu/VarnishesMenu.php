@@ -9,13 +9,14 @@ namespace Snowdog\DevTest\Menu;
  */
 class VarnishesMenu extends AbstractMenu
 {
+    use LoggedUserMenuTrait;
 
     /**
      * @return bool
      */
     public function isActive()
     {
-        return $_SERVER['REQUEST_URI'] == '/varnish';
+        return $_SERVER['REQUEST_URI'] === '/varnish';
     }
 
     /**

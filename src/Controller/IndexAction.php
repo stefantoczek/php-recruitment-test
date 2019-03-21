@@ -26,11 +26,6 @@ class IndexAction
     private $user;
 
     /**
-     * @var PageManager
-     */
-    private $pageManager;
-
-    /**
      * @var array
      */
     private $userPageInfo;

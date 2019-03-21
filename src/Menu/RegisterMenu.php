@@ -9,13 +9,24 @@ namespace Snowdog\DevTest\Menu;
  */
 class RegisterMenu extends AbstractMenu
 {
+    use LoggedUserMenuTrait {
+        isVisible as private isVisibleForLogged;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isVisible()
+    {
+        return !$this->isVisibleForLogged();
+    }
 
     /**
      * @return bool
      */
     public function isActive()
     {
-        return $_SERVER['REQUEST_URI'] == '/register';
+        return $_SERVER['REQUEST_URI'] === '/register';
     }
 
     /**

@@ -18,37 +18,16 @@ class Version4
      * @var Database|\PDO
      */
     private $database;
-    /**
-     * @var UserManager
-     */
-    private $userManager;
-    /**
-     * @var WebsiteManager
-     */
-    private $websiteManager;
-    /**
-     * @var PageManager
-     */
-    private $pageManager;
 
     /**
      * Version4 constructor.
      *
-     * @param \Snowdog\DevTest\Core\Database        $database
-     * @param \Snowdog\DevTest\Model\UserManager    $userManager
-     * @param \Snowdog\DevTest\Model\WebsiteManager $websiteManager
-     * @param \Snowdog\DevTest\Model\PageManager    $pageManager
+     * @param \Snowdog\DevTest\Core\Database $database
      */
     public function __construct(
-        Database $database,
-        UserManager $userManager,
-        WebsiteManager $websiteManager,
-        PageManager $pageManager
+        Database $database
     ) {
         $this->database = $database;
-        $this->userManager = $userManager;
-        $this->websiteManager = $websiteManager;
-        $this->pageManager = $pageManager;
     }
 
     public function __invoke()

@@ -2,7 +2,7 @@
 
 namespace Snowdog\DevTest\Core;
 
-use DI\InvokerInterface;
+use Invoker\InvokerInterface;
 use Snowdog\DevTest\Component\Migrations;
 
 /**
@@ -27,7 +27,7 @@ class Migration
     /**
      * Migration constructor.
      *
-     * @param \DI\InvokerInterface           $invoker
+     * @param \Invoker\InvokerInterface      $invoker
      * @param \Snowdog\DevTest\Core\Database $database
      */
     public function __construct(InvokerInterface $invoker, Database $database)
@@ -38,6 +38,9 @@ class Migration
 
     /**
      * @return array
+     * @throws \Invoker\Exception\InvocationException
+     * @throws \Invoker\Exception\NotCallableException
+     * @throws \Invoker\Exception\NotEnoughParametersException
      */
     public function execute()
     {
@@ -55,7 +58,7 @@ class Migration
                 $this->migrate($component, $i);
                 $executed[] = [
                     self::COMPONENT => $component,
-                    self::VERSION => $i
+                    self::VERSION => $i,
                 ];
             }
         }
@@ -85,6 +88,10 @@ class Migration
     /**
      * @param $component
      * @param $i
+     *
+     * @throws \Invoker\Exception\InvocationException
+     * @throws \Invoker\Exception\NotCallableException
+     * @throws \Invoker\Exception\NotEnoughParametersException
      */
     private function migrate($component, $i)
     {

@@ -29,17 +29,14 @@
 
     <div>
         <h1>Cache Warmer</h1>
-        <?php if ($this->user): ?>
+        
+        <form action="/sitemap-import" method="post"
+              enctype="multipart/form-data" class="form-inline form-group padded">
+            <label for="sitemap">Select sitemap to upload</label>
+            <input type="file" name="sitemap" id="sitemap" accept=".xml"><br>
+            <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+        </form>
 
-            <form action="/sitemap-import" method="post"
-                  enctype="multipart/form-data" class="form-inline form-group padded">
-                <label for="sitemap">Select sitemap to upload</label>
-                <input type="file" name="sitemap" id="sitemap" accept=".xml"><br>
-                <input type="submit" name="submit" class="btn btn-primary" value="Submit">
-            </form>
-
-
-        <?php endif ?>
     </div>
 
 </div><!-- /.container -->

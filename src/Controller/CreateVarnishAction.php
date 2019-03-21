@@ -12,6 +12,7 @@ use Snowdog\DevTest\Model\VarnishManager;
  */
 class CreateVarnishAction
 {
+
     /**
      * @var VarnishManager
      */
@@ -32,6 +33,7 @@ class CreateVarnishAction
 
     public function execute()
     {
+
         $ip = $_POST['ip'];
         $user = $this->userManager->getLoggedUser();
         if ($user) {

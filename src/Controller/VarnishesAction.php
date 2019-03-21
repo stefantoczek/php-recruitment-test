@@ -15,10 +15,6 @@ use Snowdog\DevTest\Model\WebsiteManager;
 class VarnishesAction
 {
     /**
-     * @var UserManager
-     */
-    private $userManager;
-    /**
      * @var VarnishManager
      */
     private $varnishManager;
@@ -42,10 +38,9 @@ class VarnishesAction
         VarnishManager $varnishManager,
         WebsiteManager $websiteManager
     ) {
-        $this->userManager = $userManager;
         $this->varnishManager = $varnishManager;
         if (isset($_SESSION['login'])) {
-            $this->user = $this->userManager->getByLogin($_SESSION['login']);
+            $this->user = $userManager->getByLogin($_SESSION['login']);
         }
         $this->websiteManager = $websiteManager;
     }

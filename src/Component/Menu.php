@@ -2,7 +2,7 @@
 
 namespace Snowdog\DevTest\Component;
 
-use DI\InvokerInterface;
+use Invoker\InvokerInterface;
 
 /**
  * Class Menu
@@ -74,6 +74,10 @@ class Menu
 
     /**
      * @param $className
+     *
+     * @throws \Invoker\Exception\InvocationException
+     * @throws \Invoker\Exception\NotCallableException
+     * @throws \Invoker\Exception\NotEnoughParametersException
      */
     private function renderItem($className)
     {
@@ -88,7 +92,7 @@ class Menu
     {
         $this->items[] = [
             self::CLASS_NAME => $className,
-            self::SORT_ORDER => $sortOrder
+            self::SORT_ORDER => $sortOrder,
         ];
     }
 

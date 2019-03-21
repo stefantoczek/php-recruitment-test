@@ -74,7 +74,7 @@ class NewCacheWarmer extends Old_Legacy_CacheWarmer_Warmer
     /**
      * @param $url
      *
-     * @return bool|void
+     * @return bool
      */
     public function warm($url)
     {

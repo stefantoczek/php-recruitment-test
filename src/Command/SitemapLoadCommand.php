@@ -31,13 +31,16 @@ class SitemapLoadCommand
      *
      * @param \Stefantoczek\SitemapParser\SitemapParser        $sitemapParser
      * @param \Snowdog\DevTest\Component\DatabaseWebsiteSetter $databaseWebsiteSetter
+     * @param \Snowdog\DevTest\Model\UserManager               $userManager
      */
     public function __construct(
         SitemapParser $sitemapParser,
-        DatabaseWebsiteSetter $databaseWebsiteSetter
+        DatabaseWebsiteSetter $databaseWebsiteSetter,
+        UserManager $userManager
     ) {
         $this->sitemapParser = $sitemapParser;
         $this->databaseWebsiteSetter = $databaseWebsiteSetter;
+        $this->userManager = $userManager;
     }
 
     /**
@@ -47,6 +50,8 @@ class SitemapLoadCommand
      */
     public function __invoke($username, $filename, OutputInterface $output)
     {
+        $user = $this->userManager->getByLogin($username);
+        $this->databaseWebsiteSetter->setUser($user);
         $this->sitemapParser
             ->setWebsiteDatabaseSetter($this->databaseWebsiteSetter)
             ->loadFromFile($filename)

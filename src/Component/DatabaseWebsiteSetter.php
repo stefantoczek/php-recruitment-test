@@ -49,6 +49,18 @@ class DatabaseWebsiteSetter implements WebsiteDatabaseInterface
     }
 
     /**
+     * @param \Snowdog\DevTest\Model\User $user
+     *
+     * @return \Snowdog\DevTest\Component\DatabaseWebsiteSetter
+     */
+    public function setUser($user)
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    /**
      * @param string $hostname
      *
      * @return \Snowdog\DevTest\Model\Website

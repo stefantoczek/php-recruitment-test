@@ -37,10 +37,12 @@ class CreateVarnishAction
         $ip = $_POST['ip'];
         $user = $this->userManager->getLoggedUser();
         if ($user) {
-            if ($this->varnishManager->create($user, $ip)) {
+            if (!$this->varnishManager->validateIP($ip)) {
+                $_SESSION['flash'] = 'Error while validating ip address!';
+            } elseif ($this->varnishManager->create($user, $ip)) {
                 $_SESSION['flash'] = 'Varnish server successfully added!';
             } else {
-                $_SESSION['flash'] = 'Error while adding varnish server, try again!';
+                $_SESSION['flash'] = 'Error while adding varnish server, validate your input and try again!';
             }
         } else {
             $_SESSION['flash'] = 'You need to be logged in in order to add varnish';

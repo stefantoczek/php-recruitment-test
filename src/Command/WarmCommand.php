@@ -60,7 +60,7 @@ class WarmCommand
             $resolver = new NewCacheWarmerResolverMethod();
             $resolver->setVarnishes($varnishes);
             $actor = new Old_Legacy_CacheWarmer_Actor();
-            $actor->setActor(function ($hostname, $ip, $url) use ($output) {
+            $actor->setActor(static function ($hostname, $ip, $url) use ($output) {
                 $output->writeln('Visited <info>http://' . $hostname . '/' . $url . '</info> via IP: <comment>' . $ip . '</comment>');
             });
             $warmer = new NewCacheWarmer();

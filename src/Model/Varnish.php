@@ -18,6 +18,7 @@ class Varnish
     {
         $this->user_id = (int)$this->user_id;
         $this->varnish_id = (int)$this->varnish_id;
+        $this->ip_address = long2ip(sprintf('%d', $this->ip_address));
     }
 
     /**

@@ -80,22 +80,22 @@ class PageManager
      * otherwise returns least recently visited page
      *
      * @param \Snowdog\DevTest\Model\User $user
-     * @param                             $directionFlag
+     * @param bool                        $directionFlag
      *
-     * @return array
+     * @return string|null
      */
     public function getRecentUserPageVisit(User $user, $directionFlag = true)
     {
         $direction = $directionFlag ? 'DESC' : 'ASC';
         $userId = $user->getUserId();
 
-        $query = $this->database->prepare("select p.* from pages p left join websites w on w.website_id = p.website_id where w.user_id = :user_id order by last_visited, url {$direction} limit 1");
+        $query = $this->database->prepare("select w.hostname, p.* from pages p left join websites w on w.website_id = p.website_id where w.user_id = :user_id order by last_visited, url {$direction} limit 1");
         $query->bindParam(':user_id', $userId, \PDO::PARAM_INT);
 
         $query->execute();
-        $result = $query->fetchAll(\PDO::FETCH_CLASS, Page::class);
+        $result = $query->fetchAll(\PDO::FETCH_ASSOC);
 
-        return count($result) > 0 ? $result[0] : null;
+        return count($result) > 0 ? $result[0]['hostname'] . '/' . $result[0]['url'] : null;
     }
 
     /**
@@ -124,7 +124,7 @@ class PageManager
         return [
             'page_count' => $this->getTotalUserPageCount($user),
             'least_recently_visited' => $this->getRecentUserPageVisit($user, false),
-            'most_recently_visited' => $this->getRecentUserPageVisit($user, true)
+            'most_recently_visited' => $this->getRecentUserPageVisit($user, true),
         ];
     }
 

@@ -82,7 +82,7 @@ class VarnishManager
     public function getByWebsite(Website $website)
     {
         $websiteId = $website->getWebsiteId();
-        
+
         $query = $this->database->prepare('SELECT v.* FROM varnish_website vw LEFT JOIN varnishes v on v.varnish_id = vw.varnish_id where vw.website_id = :website_id');
         $query->bindParam(':website_id', $websiteId, \PDO::PARAM_INT);
         $query->execute();
@@ -98,13 +98,37 @@ class VarnishManager
      */
     public function create(User $user, $ip)
     {
+        $isValid = $this->validateIP($ip);
+        if (!$isValid) {
+            return 0;
+        }
+
         $userId = $user->getUserId();
+        $convertedIp = (int)sprintf('%u', ip2long($ip));
         $statement = $this->database->prepare('INSERT INTO varnishes (ip_address, user_id) VALUES (:ip_address, :user_id)');
-        $statement->bindParam(':ip_address', $ip, \PDO::PARAM_STR);
+        $statement->bindParam(':ip_address', $convertedIp, \PDO::PARAM_INT);
         $statement->bindParam(':user_id', $userId, \PDO::PARAM_INT);
         $statement->execute();
 
         return $this->database->lastInsertId();
+    }
+
+    /**
+     * @param $ip
+     *
+     * @return bool
+     */
+    public function validateIP($ip)
+    {
+        $regexpPattern = '/^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$/';
+
+        if (preg_match($regexpPattern, $ip, $output_array) !== 1) {
+            $_SESSION['flash'] = 'Error occured while validating IP address!';
+
+            return false;
+        }
+
+        return true;
     }
 
     /**

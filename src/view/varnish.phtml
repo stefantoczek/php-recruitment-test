@@ -62,7 +62,7 @@
 
                 <div class="padded">
                     <table class="table table-striped varnish-website-table"
-                           data-varnish-id="<?= $varnish->getVarnishId(); ?>">
+                           data-varnish-id="<?= $varnish->getVarnishId() ?>">
                         <tr>
                             <th>Associated</th>
                             <th>Name</th>
@@ -72,7 +72,7 @@
                             <tr>
                                 <td><label>
                                         <input type="checkbox" class="varnish-website-checkbox"
-                                               data-website-id="<?= $website->getWebsiteId(); ?>"
+                                               data-website-id="<?= $website->getWebsiteId() ?>"
                                             <?= in_array($website->getWebsiteId(),
                                                 $websiteIds) ? 'checked="checked"' : '' ?>/>
                                     </label></td>

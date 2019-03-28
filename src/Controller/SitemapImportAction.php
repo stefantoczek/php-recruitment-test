@@ -2,8 +2,6 @@
 
 namespace Snowdog\DevTest\Controller;
 
-use Snowdog\DevTest\Model\UserManager;
-
 /**
  * Class SitemapImportAction
  *

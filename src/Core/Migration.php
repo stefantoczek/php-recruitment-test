@@ -58,7 +58,7 @@ class Migration
                 $this->migrate($component, $i);
                 $executed[] = [
                     self::COMPONENT => $component,
-                    self::VERSION => $i,
+                    self::VERSION => $i
                 ];
             }
         }

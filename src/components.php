@@ -52,4 +52,4 @@ Menu::register(WebsitesMenu::class, 10);
 Menu::register(VarnishesMenu::class, 40);
 Menu::register(SitemapImportMenu::class, 50);
 
-Migrations::registerComponentMigration('Snowdog\\DevTest', 4);
+Migrations::registerComponentMigration('Snowdog\\DevTest', 5);

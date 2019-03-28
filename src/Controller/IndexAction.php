@@ -59,7 +59,7 @@ class IndexAction
     }
 
     /**
-     * @param $key
+     * @param string $key
      *
      * @return mixed|string
      */
@@ -69,10 +69,12 @@ class IndexAction
             return $this->userPageInfo[$key];
         }
 
-        return '';
+        return '-';
+
     }
 
-    public function execute()
+    public
+    function execute()
     {
         require __DIR__ . '/../view/index.phtml';
     }

@@ -98,13 +98,15 @@ class VarnishManager
      */
     public function create(User $user, $ip)
     {
-        $isValid = $this->validateIPaddress($ip);
+        $isValid = $this->validateIP($ip);
         if (!$isValid) {
             return 0;
         }
+
         $userId = $user->getUserId();
+        $convertedIp = (int)sprintf('%u', ip2long($ip));
         $statement = $this->database->prepare('INSERT INTO varnishes (ip_address, user_id) VALUES (:ip_address, :user_id)');
-        $statement->bindParam(':ip_address', $ip, \PDO::PARAM_STR);
+        $statement->bindParam(':ip_address', $convertedIp, \PDO::PARAM_INT);
         $statement->bindParam(':user_id', $userId, \PDO::PARAM_INT);
         $statement->execute();
 
@@ -116,7 +118,7 @@ class VarnishManager
      *
      * @return bool
      */
-    public function validateIPaddress($ip)
+    public function validateIP($ip)
     {
         $regexpPattern = '/^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$/';
 
@@ -125,10 +127,6 @@ class VarnishManager
 
             return false;
         }
-
-//        $query = $this->database->prepare('SELECT COUNT(*) FROM varnishes where ip_address = INET_ATON(:ip)');
-//        $query->bindParam(':ip', $ip, \PDO::PARAM_STR);
-//        $query->execute();
 
         return true;
     }

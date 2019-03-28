@@ -54,5 +54,7 @@ class SitemapLoadCommand
             ->setWebsiteDatabaseSetter($this->databaseWebsiteSetter)
             ->loadFromFile($filename)
             ->insertDataToDatabase();
+        $output->writeln('Successfully imported page!');
+
     }
 }

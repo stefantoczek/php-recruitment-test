@@ -57,7 +57,7 @@ class Menu
      */
     private function getMenus()
     {
-        usort($this->items, function ($a, $b) {
+        usort($this->items, static function ($a, $b) {
             if ($a[self::SORT_ORDER] == $b[self::SORT_ORDER]) {
                 return 0;
             }
@@ -92,7 +92,7 @@ class Menu
     {
         $this->items[] = [
             self::CLASS_NAME => $className,
-            self::SORT_ORDER => $sortOrder,
+            self::SORT_ORDER => $sortOrder
         ];
     }
 

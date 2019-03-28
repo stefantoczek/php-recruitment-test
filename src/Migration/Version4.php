@@ -3,9 +3,6 @@
 namespace Snowdog\DevTest\Migration;
 
 use Snowdog\DevTest\Core\Database;
-use Snowdog\DevTest\Model\PageManager;
-use Snowdog\DevTest\Model\UserManager;
-use Snowdog\DevTest\Model\WebsiteManager;
 
 /**
  * Class Version4

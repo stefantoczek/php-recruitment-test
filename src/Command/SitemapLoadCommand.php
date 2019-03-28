@@ -4,9 +4,7 @@ namespace Snowdog\DevTest\Command;
 
 use Snowdog\DevTest\Component\DatabaseWebsiteSetter;
 use Stefantoczek\SitemapParser\SitemapParser;
-use Snowdog\DevTest\Model\PageManager;
 use Snowdog\DevTest\Model\UserManager;
-use Snowdog\DevTest\Model\WebsiteManager;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
